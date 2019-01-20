@@ -1,0 +1,14 @@
+<footer class="footer">
+  <div class="footer__inner">
+    {{ if .Site.Copyright }}
+      <div class="copyright copyright--user">{{ .Site.Copyright| safeHTML }}</div>
+    {{else}}
+      {{ partial "logo.html" . }}
+      <div class="copyright">
+        <span>© Qantas Airways Limited ABN 16 009 661 901</a></span>
+      </div>
+    {{end}}
+  </div>
+</footer>
+
+{{ partial "inject.script.html" . }}

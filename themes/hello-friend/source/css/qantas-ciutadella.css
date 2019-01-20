@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Ciutadella';
+  src: url('../fonts/Ciutadella-Regular.eot');
+  src: url('../fonts/Ciutadella-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/Ciutadella-Regular.woff') format('woff'), url('../fonts/Ciutadella-Regular.ttf') format('truetype'), url('../fonts/Ciutadella-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-variant-ligatures: none
+}
+
+@font-face {
+  font-family: 'Ciutadella';
+  src: url('../fonts/Ciutadella-Medium.eot');
+  src: url('../fonts/Ciutadella-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/Ciutadella-Medium.woff') format('woff'), url('../fonts/Ciutadella-Medium.ttf') format('truetype'), url('../fonts/Ciutadella-Medium.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-variant-ligatures: none
+}
