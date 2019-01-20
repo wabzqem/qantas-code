@@ -1,4 +1,4 @@
-baseurl = "https://code.qantas.com"
+baseurl = "https://qantasairways.github.io"
 languageCode = "en-au"
 title = "Qantas Code"
 theme = "hello-friend"
