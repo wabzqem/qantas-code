@@ -1,0 +1,31 @@
+baseurl = "https://code.qantas.com"
+languageCode = "en-au"
+title = "Qantas Code"
+theme = "hello-friend"
+copyright = ""
+paginate = 5
+
+[params]
+  subtitle = "Qantas Code Blog"
+  defaultTheme = "light"
+
+[params.logo]
+  #logoText = "Qantas Code"
+  # or
+  #
+path = "/img/qantas-code-logo.svg"
+alt = "qantas code logo"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about"
+  [[menu.main]]
+    identifier = "playbook"
+    name = "Playbook"
+    url = "/playbook"
+  [[menu.main]]
+    identifier = "careers"
+    name = "Careers"
+    url = "/careers"

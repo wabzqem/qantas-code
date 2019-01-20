@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://code.qantas.com/post/inflight-wifi/</loc>
+    <lastmod>2019-01-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://code.qantas.com/about/</loc>
+    <lastmod>2019-01-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://code.qantas.com/careers/</loc>
+    <lastmod>2019-01-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://code.qantas.com/post/flight-planning/</loc>
+    <lastmod>2019-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://code.qantas.com/post/image-compression/</loc>
+    <lastmod>2019-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://code.qantas.com/post/lounge/</loc>
+    <lastmod>2019-01-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://code.qantas.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://code.qantas.com/post/</loc>
+    <lastmod>2019-01-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://code.qantas.com/</loc>
+    <lastmod>2019-01-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://code.qantas.com/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
