@@ -1,6 +1,9 @@
-<img align="center" src="https://qantasairways.github.io/img/qantas-code-logo.svg" height="80">
+<p align="center">
+  <img src="https://qantasairways.github.io/img/qantas-code-logo.svg" height="80"/>
+  <br />
+  Hugo blog powering https://code.qantas.com/
+ </p>
 
-Qantas Code Blog, powering https://code.qantas.com/
 
 ## Installation for macOS
 
