@@ -49,5 +49,11 @@
       margin-top: 10px;
     }
   }
+
+  .logo {
+    @media (--phone) {
+      margin-bottom: 30px;
+    }
+  }
 }
 

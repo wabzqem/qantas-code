@@ -1,4 +1,4 @@
-baseurl = "https://qantasairways.github.io"
+baseurl = "https://qantasairways.github.io/"
 languageCode = "en-au"
 title = "Qantas Code"
 theme = "hello-friend"
@@ -10,17 +10,10 @@ paginate = 5
   defaultTheme = "light"
 
 [params.logo]
-  #logoText = "Qantas Code"
-  # or
-  #
-path = "/img/qantas-code-logo.svg"
-alt = "qantas code logo"
+  path = "/img/qantas-code-logo.svg"
+  alt = "qantas code logo"
 
 [menu]
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about"
   [[menu.main]]
     identifier = "playbook"
     name = "Playbook"
