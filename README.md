@@ -44,6 +44,18 @@ Submit a pull request against `master`.
 
 Once merged, the blog needs to be re-deployed. We use a seperate repository named `qantas.github.io` which is the compiled source for the blog.
 
+Checkout master, pull down the latest changes:
+
+```
+$ git pull --rebase
+```
+
+Compile production assets with Hugo
+
+```
+$ hugo
+```
+
 The `public` folder is a submobule to this git repository.
 
 Remove your local public directory
