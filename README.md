@@ -1,6 +1,7 @@
 <p align="center">
   <img src="https://qantasairways.github.io/img/qantas-code-logo.svg" height="80"/>
   <br />
+  <br />
   Hugo blog powering https://code.qantas.com/
  </p>
 
