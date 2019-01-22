@@ -1,8 +1,9 @@
 +++
-title = "Coding intelligent flight paths"
+title = "Our new technology blog"
 date = "2019-01-15"
 author = "Bill Hanrahan"
 cover = "dreamliner.jpg"
+tags = ['qantas', 'blog', '2019']
 +++
 
 The first Qantas Dreamliner service from Australia to Hong Kong took off today, marking the first destination in Asia to be served by the airline’s Boeing 787-9.
@@ -23,6 +24,7 @@ Qantas International CEO Alison Webster said the changes reinforced the airline�
 “We also expect the new overnight flight from Sydney will be popular with our customers who want to arrive in Hong Kong in the morning or connect to other flights in the region.”
 
 Qantas’ Dreamliner carries 236 passengers across three cabins. It features the latest version of the airline’s Business Suite, nicknamed “mini First Class” by some frequent flyers, as well as a next generation Premium Economy seat and a significantly improved Economy seat with extra storage compartments and more legroom.
+
 Qantas operates 28 flights per week to Hong Kong from Sydney, Melbourne and Brisbane.
 
 
