@@ -1,4 +1,4 @@
-<img src="https://qantasairways.github.io/img/qantas-code-logo.svg" height="80">
+<img align="center" src="https://qantasairways.github.io/img/qantas-code-logo.svg" height="80">
 
 Qantas Code Blog, powering https://code.qantas.com/
 
@@ -59,8 +59,7 @@ Remove your local public directory
 $ rm -rf public
 ```
 
-#### First time only
-Add submodule to set the `public` directory to use qantasairways.github.io repository as the remote and make the deploy script executable
+First time only: Add submodule to set the `public` directory to use qantasairways.github.io repository as the remote and make the deploy script executable
 
 ```
 $ git submodule add -b master git@github.com:qantasairways/qantasairways.github.io.git public
