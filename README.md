@@ -59,16 +59,16 @@ Remove your local public directory
 $ rm -rf public
 ```
 
-First time only: Add submodule to set the `public` directory to use qantasairways.github.io repository as the remote
+*First time only*: Add submodule to set the `public` directory to use qantasairways.github.io repository as the remote and make the deploy script executable
 
 ```
 $ git submodule add -b master git@github.com:qantasairways/qantasairways.github.io.git public
+$ chmod u+x deploy.sh
 ```
 
 Make deploy.sh script executable and deploy
 
 ```
-$ chmod u+x deploy.sh
 $ ./deploy.sh
 ```
 
