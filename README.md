@@ -50,12 +50,6 @@ Checkout master, pull down the latest changes:
 $ git pull --rebase
 ```
 
-Compile production assets with Hugo
-
-```
-$ hugo
-```
-
 The `public` folder is a submobule to this git repository.
 
 Remove your local public directory
@@ -64,7 +58,7 @@ Remove your local public directory
 $ rm -rf public
 ```
 
-Add submodule to set the `public` directory to use qantasairways.github.io repository as the remote
+First time only: Add submodule to set the `public` directory to use qantasairways.github.io repository as the remote
 
 ```
 $ git submodule add -b master git@github.com:qantasairways/qantasairways.github.io.git public
