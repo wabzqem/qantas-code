@@ -24,8 +24,6 @@ Create a local branch with your changes
 $ git checkout -b my-first-post
 ```
 
-## Add content locally
-
 Add some content
 
 ```
