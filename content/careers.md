@@ -8,7 +8,7 @@ author = "Qantas"
 
 Qantas is synonymous with aviation, but we've evolved in ways that may surprise you. Keeping our complex business ahead of the game in the digital age is a constant challenge. To be the best, we work hard to deliver digital solutions that respond to the needs of our business and customers.
 
-Technology is a big part of how we continue to pioneer our way forward. With eyes on the future, our IT team harness technology on a global scale and tailor local solutions for each of our ports. In our digital and technology hub teams, time is of the essence.
+Technology is a big part of how we continue to pioneer our way forward. With eyes on the future, our IT team harness technology on a global scale and tailor local solutions for each of our ports.
 
 ## Current opportunities
 
