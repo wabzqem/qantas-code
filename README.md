@@ -2,8 +2,10 @@
   <img src="https://qantasairways.github.io/img/qantas-code-logo.svg" height="80"/>
   <br />
   <br />
-  Hugo blog powering https://code.qantas.com/
+  Static blog powering https://code.qantas.com/
  </p>
+ 
+ [![Build Status](https://travis-ci.com/qantasairways/qantas-code.svg?branch=master)](https://travis-ci.com/qantasairways/qantas-code)
 
 
 ## Installation for macOS
