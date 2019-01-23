@@ -55,8 +55,6 @@ $ git checkout master
 $ git pull --rebase
 ```
 
-Add the `public` folder as submobule to this git repository on `master`.
-
 First time only: Add submodule to set the `public` directory to use qantasairways.github.io repository as the remote and make the deploy script executable
 
 ```
