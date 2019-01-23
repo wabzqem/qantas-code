@@ -1,28 +1,22 @@
 #!/bin/bash
 
-echo -e "\033[0;32m 👷🏻‍♂ .. Building assets ...\033[0m"
+set -e
 
-# Build the project.
-hugo # 
+echo $GITHUB_AUTH_SECRET > ~/.git-credentials && chmod 0600 ~/.git-credentials
+git config --global credential.helper store
+git config --global user.email "qantas-deploy@users.noreply.github.com"
+git config --global user.name "Qantas Deploy Bot"
+git config --global push.default simple
 
-# Go To Public folder
-cd public
-# Add changes to git.
-git add .
+rm -rf deployment
+git clone -b master https://github.com/qantasairways/qantasairways.github.io.git deployment
+rsync -av --delete --exclude ".git" public/ deployment
+cd deployment
+git add -A
+# we need the || true, as sometimes you do not have any content changes
+# and git woundn't commit and you don't want to break the CI because of that
+git commit -m "rebuilding site on `date`, commit ${TRAVIS_COMMIT} and job ${TRAVIS_JOB_NUMBER}" || true
+git push
 
-# Commit changes.
-msg="rebuilding site `date`"
-if [ $# -eq 1 ]
-  then msg="$1"
-fi
-git commit -am "$msg"
-
-echo -e "\033[0;32m ✈️ .. Deploying to GitHub ...\033[0m"
-
-# Push source and build repos.
-git push origin master
-
-# Come Back up to the Project Root
 cd ..
-
-echo -e "\033[0;32m ✅ .. Done...\033[0m"
+rm -rf deployment
