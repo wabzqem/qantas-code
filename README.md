@@ -46,7 +46,7 @@ Submit a pull request against `master`.
 
 ## Deploy changes
 
-Once merged, the blog needs to be re-deployed. We use a seperate repository named `qantas.github.io` which is the compiled source for the blog.
+Once merged, the blog needs to be re-deployed. We use a seperate repository named `qantasairways.github.io` which is the compiled source for the blog.
 
 Checkout `master`, pull down the latest changes:
 
