@@ -55,13 +55,7 @@ $ git checkout master
 $ git pull --rebase
 ```
 
-The `public` folder is a submobule to this git repository.
-
-Remove your local public directory
-
-```
-$ rm -rf public
-```
+Add the `public` folder as submobule to this git repository on `master`.
 
 First time only: Add submodule to set the `public` directory to use qantasairways.github.io repository as the remote and make the deploy script executable
 
