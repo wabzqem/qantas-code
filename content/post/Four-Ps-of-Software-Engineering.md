@@ -4,6 +4,7 @@ date = "2019-01-16"
 author = "Paul Keen"
 cover = "4PsofSoftwareEngineering.jpg"
 tags = ['spotify', 'agile', 'chapters']
+description = "We have a diverse set of software engineering teams at Qantas. Some are working on qantas.com, while others on our mobile apps – one has built arguably the world’s best flight planning engine. As part of our agile ways of working, Qantas moved to the Spotify model; this is how we set-up our Software Engineering Chapter.
 +++
 
 We have a diverse set of software engineering teams at Qantas. Some are working on qantas.com, while others on our mobile apps – one has built arguably the [world’s best flight planning engine](https://www.airlineratings.com/news/qantas-launches-worlds-sophisticated-flight-planner/). Others build apps for pilots, cabin crew, ground maintenance. 
